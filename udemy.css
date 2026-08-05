@@ -1,0 +1,38 @@
+ * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    .practice-hero {
+      min-height: 100vh;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .practice-text,
+    .practice-card {
+      border: 1px solid white;
+      padding: 1rem;
+    }
+
+    .practice-card {
+      gap: 1rem;
+      display: flex;
+    }
+
+    .practice-card p{
+        width: 120px;
+        padding: 1rem;
+        background: crimson;
+        flex-wrap: wrap;
+    }
